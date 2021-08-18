@@ -1,8 +1,17 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, fireEvent } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import CreateAccount from "./components/CreateAccount"
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('registers a new user', () => {
+  const { getByTestId, getByText} = render(<CreateAccount />);
+
+  const inputName   = getByTestId('name');
+  const inputEmail  = getByTestId('email');
+  const inputPass   = getByTestId('pass');
+  
+
+  userEvent.type(inputName, "Rob");
+  userEvent.type(inputEmail, "1234@yahoo.com");
+  userEvent.type(inputPass, "5656565");
+  fireEvent.click(getByText('Create New Account Now'));
 });
