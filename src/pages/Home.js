@@ -5,8 +5,8 @@ function Home(){
       <Card
         txtcolor="black"
         header="BadBank Landing Project"
-        title="Welcome to the your new bank"
-        text="You can move around using the navigation bar."
+        title="Welcome to your beloved new bank."
+        text="We have worked hard to fill your needs."
         body={(<img src="bank.png" className="img-fluid" alt="Responsive image"/>)}        
       />    
     );  

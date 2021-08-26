@@ -13,16 +13,16 @@ function NavBar2(){
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#/CreateAccount/" data-toggle="tooltip" data-placement="bottom" title="Join our community!">Create Account</a>
+              <a className="nav-link nav-high" href="#/CreateAccount/" data-toggle="tooltip" data-placement="bottom" title="Join our community!">Create Account</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#/deposit/" data-toggle="tooltip" data-placement="bottom" title="Pay what you owe">Deposit</a>
+              <a className="nav-link nav-high" href="#/deposit/" data-toggle="tooltip" data-placement="bottom" title="Start transfering money">Deposit</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#/withdraw/" data-toggle="tooltip" data-placement="bottom" title="We all need some cash!">Withdraw</a>
+              <a className="nav-link nav-high" href="#/withdraw/" data-toggle="tooltip" data-placement="bottom" title="We all need some cash!">Withdraw</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#/alldata/" data-toggle="tooltip" data-placement="bottom" title="Transaction Logs">AllData</a>
+              <a className="nav-link nav-high" href="#/alldata/" data-toggle="tooltip" data-placement="bottom" title="Transaction Logs">AllData</a>
             </li>          
           </ul>
         </div>

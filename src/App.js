@@ -19,7 +19,7 @@ function App() {
       <NavBar2/>
       <UserContext.Provider value={{users:[{name:'probando',email:'aloha@prueba.cl',password:'secret',balance:100}]}}>
         <div className="container" style={{padding: "20px"}}>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={Home}  />
           <Route path="/createaccount/" component={CreateAccount} />
           <Route path="/deposit/" component={Deposit} />
           <Route path="/withdraw/" component={Withdraw} />

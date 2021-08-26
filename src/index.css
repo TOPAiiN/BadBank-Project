@@ -12,3 +12,6 @@ code {
     monospace;
 }
 
+.selected-page {
+  color: red;
+}
