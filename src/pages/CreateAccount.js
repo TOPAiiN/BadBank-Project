@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
-import { UserContext } from "./../context";
-import Card from "./Card";
+import { UserContext } from "../context";
+import Card from "../components/Card/Card";
 
 
 function CreateAccount(){

@@ -1,0 +1,14 @@
+.navbar-menu {
+    background-color: #b1d4e0;
+    padding-left: 80px;
+  }
+  
+  .nav-link:hover {
+    color: #603840 !important;
+  }
+
+  .nav-link:active {
+    text-decoration: underline;
+    color: #603840 !important; 
+  }
+  
