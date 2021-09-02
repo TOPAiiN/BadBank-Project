@@ -60,7 +60,7 @@ const MakeWithdraw = (event) => {
         <div className="card-body">
             <h5 className="card-title">Your account balance is USD {balance}</h5>
             <p className="card-text">Remember you can deposit money to your account {depositLink}</p>   
-            {noWithdraw ? <p className="text-danger"> Please check your balance</p> : null }        
+            {/* {noWithdraw ? <p className="text-danger"> Please check your balance</p> : null }         */}
             {validTransaction ? 
             <>
             <h5 className="card-title">Check your pockets :) You can withdraw money again if you want</h5>
