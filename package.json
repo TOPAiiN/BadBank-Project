@@ -1,7 +1,6 @@
 {
   "name": "bad-bank-refactor",
   "version": "0.1.0",
-  "homepage": "https://antonio-correabankingapplication.s3.sa-east-1.amazonaws.com/index.html",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
